@@ -1,0 +1,21 @@
+footer{
+    background-color: antiquewhite;
+}
+
+
+#footer__cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    font-size: clamp(0.1rem, 2vw, 1.5rem);
+    gap: 5rem;
+}
+
+
+
+#footer__useful_links{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,33 @@
+:root {
+  --header-color: white;
+  --dark_grey: #e6e6e6;
+  --globalSidePadding: 5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  
+  color: inherit;
+  box-sizing: border-box;
+  list-style: none;
+  word-wrap: break-word;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: system-ui, sans-serif;
+}
+
+body{
+  font-size: 1.6rem;
+}
+
+a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}

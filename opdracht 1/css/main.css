@@ -1,0 +1,74 @@
+main{
+    background-color: antiquewhite;
+
+}
+
+#hero_cont{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#hero_img{
+    width: 100%;
+}
+#hero_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 40vw;
+    height: 9vw;
+
+    font-size: 2vw;
+
+
+    position: absolute;
+    top: 40vw;
+    right: auto;
+    background-color: rgb(241, 241, 241);
+    border-radius: 1rem;
+}
+
+.convince_to_join{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images{
+    width: 35vw;
+    object-fit: contain;
+}
+
+.description{
+    font-size: clamp(1rem, 2vw, 2rem);
+
+    width: 90rem;
+}
+
+#flower_describe{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.flower_describe__figure{
+    display: flex;
+    flex-direction: column;
+    width: 31rem;
+    background-color: #efd6ab;
+    padding: 2rem;
+    gap: 2rem;
+    border-radius: 1rem;
+
+}
+
+
+.flower_describe__images{
+    height: 20rem;
+    object-fit: contain;
+}
