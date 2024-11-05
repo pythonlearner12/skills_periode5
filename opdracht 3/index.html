@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Fill Text Fields</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <section class="section">
+        <div class="section__container">
+            <div>
+                <label for="inputText">Type here</label>
+                <input type="text" id="inputText" placeholder="Type here..." oninput="autoFill()">
+            </div>
+
+            <div>
+                <label id="Courier" for="output1">Courier New</label>
+                <input type="text" id="output1" readonly>
+            </div>
+
+            <div>
+                <label id="Georgia" for="output2">Georgia</label>
+                <input type="text" id="output2" readonly>
+            </div>
+
+            <div>
+                <label id="comic" for="output3">Comic Sans MS</label>
+                <input type="text" id="output3" readonly>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

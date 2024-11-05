@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3DADA8;
+  font-size: 1.6rem;
+}
+
+/* #FAF8F2 */
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 0.8rem;
+  width: 25rem;
+  border: none;
+  background-color: inherit;
+  border-bottom: solid #3DADA8 0.1rem;
+  font-size: 1rem;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+.section__container {
+  padding: 8rem 15rem;
+  background-color: #FAF8F2;
+  border-radius: 1rem;
+}
+.section__container #inputText {
+  margin: 2rem 0;
+}
+.section__container #output1 {
+  font-family: "Courier New";
+}
+.section__container #Courier {
+  font-family: "Courier New";
+}
+.section__container #output2 {
+  font-family: "Georgia";
+}
+.section__container #Georgia {
+  font-family: "Georgia";
+}
+.section__container #comic {
+  font-family: "Comic Sans MS";
+}
+.section__container #output3 {
+  font-family: "Comic Sans MS";
+}

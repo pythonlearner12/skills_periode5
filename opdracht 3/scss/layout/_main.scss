@@ -1,0 +1,38 @@
+.section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 0;
+
+    &__container{
+        padding: 8rem 15rem;
+        background-color:  #FAF8F2;
+        border-radius: 1rem;
+    
+        #inputText{
+            margin: 2rem 0;
+        }
+        
+        #output1 {
+            font-family: 'Courier New';
+        }
+        #Courier{
+            font-family: 'Courier New';
+        }
+        
+        #output2 {
+            font-family: 'Georgia';
+        }
+        #Georgia{
+            font-family: 'Georgia';
+        }
+        
+        #comic{
+            font-family: 'Comic Sans MS';
+        }
+        #output3 {
+            font-family: 'Comic Sans MS';
+        }
+    }
+}
+
